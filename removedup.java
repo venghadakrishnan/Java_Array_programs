@@ -4,9 +4,10 @@ public class removedup {
 
     static void venkatdup(int[] array){
         
-        for(int i = 0 ; i<array.length;i++){
-            System.out.println(array[i]+"\t");
-        }
+        // for(int i = 0 ; i<array.length;i++){
+        //     System.out.println(array[i]+"\t");
+        // }
+        
         int len = array.length;
             for(int i = 0 ; i<len;i++){
                 for(int j =i+1 ; j<len;j++){
